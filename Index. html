@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novita Store - Toko Fashion Online</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo">NovitaStore</a>
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+          ☰
+        </button>
+        <a href="#" class="cart-icon">
+          🛒
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+      <nav>
+        <div class="nav-container">
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#kategori">Kategori</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="beranda">
+        <section class="hero">
+          <h1>Selamat Datang di NovitaStore</h1>
+          <p>Temukan gadget dan elektronik terbaru dengan harga terjangkau</p>
+          <a href="#produk" class="cta-button">Belanja Sekarang</a>
+        </section>
+      </section>
+
+      <section id="produk">
+        <h2>Produk Terbaru</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image">💄</div>
+            <div class="product-info">
+              <h3 class="product-name">Lipstik Matte</h3>
+              <p class="product-description">
+                Lipstik Matte Warna Natural
+Lipstik tahan lama dengan warna-warna natural yang cocok untuk kegiatan sehari-hari.
+              </p>
+              <div class="product-price">Rp 120.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">👜</div>
+            <div class="product-info">
+              <h3 class="product-name">Tas Selempang</h3>
+              <p class="product-description">
+                Tas Selempang Elegan
+Tas wanita berbahan kulit sintetis premium dengan desain simpel dan modis. Cocok untuk berbagai acara.
+              </p>
+              <div class="product-price">Rp 379.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">🩰</div>
+            <div class="product-info">
+              <h3 class="product-name">Sepatu Flat Feminine Step</h3>
+              <p class="product-description">
+                Sepatu Flat Feminine Step
+Sepatu flat nyaman dengan desain feminin, cocok digunakan sehari-hari atau saat santai.
+              </p>
+              <div class="product-price">Rp 160.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+      <section id="kategori">
+        <h2>Kategori produk</h2>
+        <div class="categories">
+          <div class="category-card">
+            <div class="category-icon">💄</div>
+            <h3>Lipstik Matte Natural</h3>
+            <p>Lipstik dengan warna warna natural,cocok untuk sehari-hari</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">👜</div>
+            <h3>Tas Selempang</h3>
+            <p>Tas wanita elegan dengan berbahan kulit sintetis premium</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🩰</div>
+            <h3>Sepatu Flat Feminine</h3>
+            <p>Nyaman dengan desain feminin,cocok buat sehari-hari</p>
+
+      <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <div class="about-content">
+          <p>
+            NovitaStore adalah toko fashion online terpercaya yang menyediakan
+            berbagai gadget dan perangkat teknologi terbaru dengan kualitas
+            terjamin.
+          </p>
+          <p>
+            Kami berkomitmen untuk memberikan pengalaman berbelanja yang mudah,
+            aman, dan memuaskan dengan layanan pelanggan terbaik dan jaminan
+            produk original.
+          </p>
+          <p>
+            Dengan pengalaman lebih dari 10 tahun di industri teknologi, kami
+            telah melayani ribuan pelanggan di seluruh Indonesia dengan kepuasan
+            mencapai 98%.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>NovitaStore</h3>
+          <p>
+            Toko fashion online terpercaya dengan produk berkualitas dan
+            pelayanan terbaik.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Tautan Cepat</h3>
+          <p><a href="#">Beranda</a></p>
+          <p><a href="#produk">Produk</a></p>
+          <p><a href="#kategori">Kategori</a></p>
+          <p><a href="#tentang">Tentang Kami</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Layanan</h3>
+          <p><a href="#">Bantuan</a></p>
+          <p><a href="#">Kebijakan Privasi</a></p>
+          <p><a href="#">Syarat & Ketentuan</a></p>
+          <p><a href="#">Pengembalian</a></p>
+        </div>
+        <div class="footer-section">
+          <section id="kontak">
+            <h3>Kontak</h3>
+            <p>Email: info@novitastore.com</p>
+            <p>Telepon: (021) 123-0862</p>
+            <p>WhatsApp: +62 858-6394-5630</p>
+          </section>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 NovitaStore. Seluruh hak cipta dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
